@@ -40,8 +40,8 @@ User Query → Semantic Router → FAQ (RAG) or Product Search (Text-to-SQL) →
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/querycart.git
-cd querycart
+git clone https://github.com/sam20799/e_commerce_chatbot.git
+cd e_commerce_chatbot
 ```
 
 2. Install dependencies
