@@ -72,7 +72,7 @@ if query:
         st.markdown(query)
     st.session_state['messages'].append({"role": "user","content":query})
     response = ask(query)
-    response = response.replace("\n", "<br>")
+    response = response.replace("\n", "/n/n")
     with st.chat_message("assistant"):
         st.markdown(response, unsafe_allow_html=True)
     st.session_state['messages'].append({"role":"assistant","content":response})
